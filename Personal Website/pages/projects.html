@@ -1,0 +1,184 @@
+<!--Hasin Ishrak's personal website-->
+<!--Dec 30, 2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../images/home_icon.png" />
+    <title> Hasin </title>
+</head>
+<body>
+
+    <div class="bg-dark wrapper" id="mainBody">
+
+        <!--Header-->
+
+        <header class="nav p-3 bg-dark text-white">
+            <div class="container">
+
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center text-center">
+                    <a href="../index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <div class="display-4 h1 text-warning">Hasin Ishrak</div>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+        <!--Header ends-->
+
+
+
+        <!--Navbar-->
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 sticky-top" >
+            <div class="container">
+
+                <!--NavLinks-->
+                <a href="../index.html" class="nav-link px-2 text-white">Home</a>
+                <a href="about.html" class="nav-link px-2 text-white">About/Skills</a>
+                <a href="projects.html" class="nav-link px-2 text-secondary lead">Projects</a>
+                <a href="experience.html" class="nav-link px-2 text-white"> Experience </a>
+                <a class="nav-link px-2 text-white" href="../documents/Hasin_Ishrak_Resume_2021_Fall.pdf" target="_blank" download="hasin_ishrak_CV" >
+                    Résumé
+                    <i class="bi bi-download h5"></i>
+                </a>
+
+                <!--ToggleButton-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Items to toggle-->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto p-2">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="mailto: hasinishrakpurno@gmail.com">
+                                <i class="bi bi-envelope-fill img-fluid h4 text-white"></i>
+                            </a>
+                        </li>
+                        <li class="navbar-item" >
+                            <a class="nav-link" href="https://github.com/ishrakHP" target="_blank">
+                                <i class="bi bi-github img-fluid h4 text-white"></i>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/ishrakh/" target="_blank">
+                                <i class="bi bi-linkedin img-fluid h4 text-info"></i>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link">
+                                <i class="bi bi-twitter img-fluid h4 text-primary"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+        <!--Navbar ends-->
+
+        <h2><span class="text-warning mt-4 d-sm-flex justify-content-center">Experience</span></h2>
+
+        <!--Display projects-->
+        <!--Using bootsrap grid-->
+
+        <!--Personal Website-->
+        <section id="learn" class="p-5 bg-dark text-light">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5">
+                  <h2 class="text-info">Personal Website</h2>
+                  <p class="lead">
+                    Developed a <span class="lead text-warning"> responsive website </span> to showcase my personal information,
+                    skills and projects.
+                  </p>
+                  <p>
+                    <ul>
+                        <li>Used HTML, CSS and Bootstrap to make this personal bio website.</li>
+                        <li>For basic structure and design I used HTML and CSS.</li>
+                        <li>To make the website interactive and to style the website Bootstrap was used.</li>
+                    </ul>
+                  </p>
+                  <a href="#" target="_blank" class="btn btn-light mt-3">
+                    <i class="bi bi-github"></i> See in GitHub
+                  </a>
+                </div>
+                <div class="col-md">
+                  <img src="../images/Project_images/personal_website.png" class="img-fluid" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Personal Website ends-->
+
+          <div style="width:800px; margin:0 auto;">
+            <hr class="text-secondary" width="100%">
+          </div>
+          
+          <!--Game Rating System-->
+          <section id="learn" class="p-3 bg-dark text-light">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                  <img src="../images/Project_images/Game-Rating.png" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md p-5">
+                  <h2 class="text-info">Game Rating System</h2>
+                  <p class="lead">
+                    Developed (as a group) a <span class="lead text-warning"> complete, self-contained Java Android application </span> where people can 
+                    find ratings, reviews and information
+                    about a game and give ratings and reviews as well.
+                  </p>
+                  <p>
+                    <ul>
+                        <li>The software includes a graphical user interface, a database for storage, and some data processing. The goal was to produce a solid,
+                            well-written, real-world application. Followed agile software development life-cycle as SDL model and three layered architecture as
+                            system-architecture for this project.</li>
+                        <li>Tools used: Java JDK (SE), Android Studio, Git version control system, Android SDK, HSQLDB database management system, JUnit
+                            testing framework for unit and integration testing, Espresso UI-testing framework for automated acceptance testing.</li>
+                    </ul>
+                  </p>
+                  <a href="https://github.com/ishrakHP/Software-Engineering-1" target="_blank" class="btn btn-light mt-3">
+                    <i class="bi bi-github"></i> See in GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--Game Rating System ends-->
+
+    </div>
+
+    <!--Wrapper class ends-->
+
+
+
+    <!--Footer-->
+
+    <footer class="p-5 bg-dark text-secondary text-center" id="footer">
+        <p class="lead">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Hasin Ishrak</p>
+    </footer>
+
+    <!--Footer ends-->
+
+
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+        crossorigin="anonymous">
+    </script>
+</body> 
+</html>

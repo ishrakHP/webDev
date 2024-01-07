@@ -8,4 +8,4 @@
 
 - To run the webpage:
   1. Simply download the the folder 'Unit Conversion'.
-  2. Open the 'index.htm' page in a web browser.
+  2. Open the 'index.htm' page with a web browser.

@@ -1,0 +1,276 @@
+<!--Hasin Ishrak's personal website-->
+<!--Dec 30, 2022-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/home_icon.png" />
+
+    <title> Hasin </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+    <!--Wrapper class-->
+
+    <div class="bg-dark wrapper" id="mainBody">
+
+        <!--Header-->
+
+        <header class="nav p-3 bg-dark text-white">
+            <div class="container">
+
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-center text-center">
+                    <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                        <div class="display-4 h1 text-warning">Hasin Ishrak</div>
+                    </a>
+                </div>
+
+            </div>
+        </header>
+
+        <!--Header ends-->
+
+
+
+        <!--Navbar-->
+        <!--Using bootstrap navbar-->
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 sticky-top" >
+            <div class="container">
+
+                <!--NavLinks-->
+                <a href="index.html" class="nav-link px-2 text-secondary lead"> Home </a>
+                <a href="pages/about.html" class="nav-link px-2 text-white"> About/Skills </a>
+                <a href="pages/projects.html" class="nav-link px-2 text-white"> Projects </a>
+                <a href="pages/experience.html" class="nav-link px-2 text-white"> Experience </a>
+                <a class="nav-link px-2 text-white" href="documents/Hasin_Ishrak_Resume.pdf" target="_blank" download="hasin_ishrak_CV">
+                    Résumé
+                    <i class="bi bi-download h5"></i>
+                </a>
+
+                <!--ToggleButton-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Items to toggle-->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto p-2">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="mailto: hasinishrakpurno@gmail.com">
+                                <i class="bi bi-envelope-fill img-fluid h4 text-white"></i>
+                            </a>
+                        </li>
+                        <li class="navbar-item" >
+                            <a class="nav-link" href="https://github.com/ishrakHP" target="_blank">
+                                <i class="bi bi-github img-fluid h4 text-white"></i>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/ishrakh/" target="_blank">
+                                <i class="bi bi-linkedin img-fluid h4 text-info"></i>
+                            </a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="nav-link">
+                                <i class="bi bi-twitter img-fluid h4 text-primary"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!--Navbar ends-->
+
+
+
+        <!--Display Info-->
+        <!--Using flex-box-->
+
+        <section class="bg-dark text-light p-5 text-center" id="mainDisplay">
+            <div class="container px-5">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <img class="img-fluid w-30 d-none d-lg-block" src="images/boy.png" alt="">
+                    <div class="px-2">
+                        <h1><span class="text-info">Hello! I am</span> <span class="text-warning">Hasin,</span></h1>
+                        <p class="lead my-4">
+                            An aspiring software engineer with an interest in web development, 
+                            software development and data science. I am currently a 4<sup>th</sup>
+                            year computer science student at the University of Manitoba. I am passionate
+                            about technology, human psychology and travel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Display Info ends-->
+
+
+
+        <!--Boxes for Exploring, Creating and Learning-->
+        <!--Using grid-->
+
+        <section class="bg-dark text-light p-5 mb-5 text-center">
+            <div class="container">
+
+                <!--Box for exploring-->
+                <div class="row text-center g-4">
+                    <div class="col-lg">
+
+                        <div class="card border-secondary bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <img class="img-fluid mx-auto d-none d-sm-block" src="images/adventurer.png" alt="Relative-image">
+                                </div>
+                                <h3 class="card-title mb-3 text-info">
+                                    Exploring
+                                </h3>
+                                <p class="card-text">
+                                    <div class="list-group">
+                                        <a class="list-group-item list-group-item-action list-group-item-primary text-dark">Machine Learning</a>
+                                        <a class="list-group-item list-group-item-action list-group-item-success text-dark">Human Psychology</a>
+                                        <a class="list-group-item list-group-item-action list-group-item-info text-dark">Backpacking Destination</a>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Box for Creating-->
+                    <div class="col-lg">
+                        <div class="card border-secondary bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <img class="img-fluid mx-auto d-none d-sm-block" src="images/working.png" alt="Relative-image">
+                                </div>
+                                <h3 class="card-title mb-3 text-warning">
+                                    Creating
+                                </h3>
+                                <p class="card-text">
+                                    <div class="list-group">
+                                        <a class="list-group-item list-group-item-action list-group-item-warning text-dark">Websites</a>
+                                        <a class="list-group-item list-group-item-action list-group-item-success text-dark">Android Apps</a>
+                                        <a class="list-group-item list-group-item-action list-group-item-info text-dark">Community Network</a>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Box for Learning-->
+                    <div class="col-lg">
+                        <div class="card border-secondary bg-dark text-light">
+                            <div class="card-body text-center">
+                                <div class="h1 mb-3">
+                                    <img class="img-fluid mx-auto d-none d-sm-block" src="images/reading-book.png" alt="Relative-image">
+                                </div>
+                                <h3 class="card-title mb-3 text-success">
+                                    Learning
+                                </h3>
+                                <p class="card-text">
+                                    <div class="list-group">
+                                        <a class="list-group-item list-group-item-action list-group-item-success text-dark">CI/CD</a>
+                                        <a class="list-group-item list-group-item-action list-group-item-secondary text-dark">Data Science</a>
+                                        <a class="list-group-item list-group-item-action list-group-item-info text-dark">Video Editing</a>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Boxes ends-->
+
+
+
+    </div>
+
+    <!--Wrapper class ends-->
+
+
+
+    <!--Footer-->
+
+    <footer class="footer-02">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-10 col-lg-6">
+                    <div class="subscribe mb-2">
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group d-flex">
+                                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
+                                <input type="submit" value="Subscribe" class="form-control submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h5 class="mb-0 text-secondary">Reach me for queries:</h5>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="partner-name mb-0">
+                                <span class="text-white mr-2"><i class="bi bi-telephone-forward-fill"> <a href="tel:+1204-869-8017" class="link-light"> (+1)204-869-8017 </a> </i></span>
+                                <span class="text-white mr-2"><i class="bi bi-envelope-at-fill"> <a href="mailto: hasinishrakpurno@gmail.com" class="link-light"> hasinishrakpurno@gmail.com </a> </i></span>
+                                <span class="text-white mr-2"><i class="bi bi-linkedin"> <a href="https://www.linkedin.com/in/ishrakh/" class="link-light" target="_blank"> linkedin.com/in/ishrakh/ </a> </i></span>
+                            </p>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-6 col-lg-8">
+                    <p class="text-center lead"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="ion-ios-heart" aria-hidden="true"></i> by Hasin Ishrak
+                    </p>
+                </div>
+                <a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons" class="link-secondary text-center">
+                    Knowledge icons created by gungyoga04 - Flaticon
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!--Footer ends-->
+
+    
+
+    <!--Bootstrap JS cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+        crossorigin="anonymous">
+    </script>
+
+
+</body> 
+</html>
